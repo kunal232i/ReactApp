@@ -7,7 +7,7 @@ const Card = ({ title, desc, date, color, deleteNote, index }) => {
       <div className="meta-card">
         <div className="date">{date}</div>
         <div className="delete" onClick={() => deleteNote(index)}>
-          delete
+          🗑️
         </div>
       </div>
     </div>
