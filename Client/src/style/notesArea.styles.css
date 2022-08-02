@@ -1,0 +1,41 @@
+.body {
+  overflow-y: hidden;
+}
+.notes-area {
+  width: 80%;
+  margin: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  height: 75vh;
+  overflow-y: scroll;
+  margin-bottom: 2rem;
+}
+
+.add-icon {
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  box-shadow: 2px 3px 20px 1px #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 85%;
+  left: 90%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.add-icon:hover {
+  transform: rotate(90deg);
+}
+@media screen and (max-width: 768px) {
+  .notes-area {
+    width: 100%;
+  }
+}
