@@ -1,5 +1,4 @@
-import "../style";
-
+import "../style/searchBar.styles.css";
 const SearchBar = ({ setSearchNotes }) => {
   return (
     <div className="search-bar">

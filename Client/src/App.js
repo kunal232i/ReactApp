@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
-import SearchBar from "./components/SearechBar";
-// import NotesArea from "../components/NotesArea";
+import SearchBar from "./components/SearchBar";
+import NotesArea from "./components/NotesArea";
 
 function App() {
   const [searchNotes, setSearchNotes] = useState("");
