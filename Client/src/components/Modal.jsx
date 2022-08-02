@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../style/modal.styles.css";
+
 const Modal = ({ setShow, addNote }) => {
   const [newNote, setNewNote] = useState({
     title: "",

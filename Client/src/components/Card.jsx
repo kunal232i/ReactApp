@@ -1,4 +1,4 @@
-import '../style/card.styles.css';
+import "../style/card.styles.css";
 const Card = ({ title, desc, date, color, deleteNote, index }) => {
   return (
     <div style={{ backgroundColor: color }} className="card">
