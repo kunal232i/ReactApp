@@ -2,10 +2,6 @@
 
 Noty is a simple and user-friendly note-taking frontend application built using React. It allows users to create, edit, and delete notes. The application uses React's `useState` and `useEffect` hooks to manage the state and interacts with the browser's `localStorage` to temporarily store the notes data since it doesn't have a backend or database.
 
-## Live Link
-
-You can access the live version of Noty at [noty.netlify.app](https://main--whimsical-liger-e5f32f.netlify.app/).
-
 ## Features
 
 - Create new notes
